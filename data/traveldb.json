@@ -1,0 +1,28 @@
+{
+  "destination": [
+    {
+      "id": "2",
+      "city": "Santorini",
+      "country": "Greece",
+      "daysNeeded": 7
+    },
+    {
+      "id": "dd9e",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "daysNeeded": 9
+    },
+    {
+      "id": "0834",
+      "city": "Venice",
+      "country": "Italy",
+      "daysNeeded": 4
+    },
+    {
+      "id": "b23c",
+      "city": "Edinberg",
+      "country": "Romania",
+      "daysNeeded": 1
+    }
+  ]
+}
