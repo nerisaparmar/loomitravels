@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import Header from "./layout/Header";
 import DestinationIndex from "./components/DestinationIndex";
 import { Provider } from "react-redux";
-import { DestinationApi } from "./api/DestinationApi";
 import { store } from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

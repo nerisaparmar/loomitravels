@@ -10,11 +10,13 @@ const AddDestination = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     //add
-    addDestination({
-      city: newCity,
-      country: newCountry,
-      daysNeeded: parseInt(Math.random() * 10) + 1,
-    });
+    if (newCity != "" && newCountry != "") {
+      addDestination({
+        city: newCity,
+        country: newCountry,
+        daysNeeded: parseInt(Math.random() * 10) + 1,
+      });
+    }
     setNewCity("");
     setNewCountry("");
   };
