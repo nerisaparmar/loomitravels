@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useAddDestinationMutation } from "../api/DestinationApi";
-
+// this will use useState from Redux and call the Add method to add data from frontend
 const AddDestination = () => {
   const [newCity, setNewCity] = useState("");
   const [newCountry, setNewCountry] = useState("");

@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/style.css";
 import logo from "../images/logoloomi.png";
+// this is header component consisting the name and header bar of the app
 const Header = () => {
   return (
     <header className="header">

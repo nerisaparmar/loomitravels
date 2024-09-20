@@ -4,7 +4,7 @@ import {
   useUpdateDestinationMutation,
 } from "../api/DestinationApi";
 import { useState } from "react";
-
+// This Componenet will Update and delete each Destination data using Update and Delete API
 const Destination = ({ destination }) => {
   const [deleteDestination] = useDeleteDestinationMutation();
   const [updateDestination] = useUpdateDestinationMutation();

@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
+// This will Consume all the API from local Json Server to Get, Add, Update and Delete data
 export const DestinationApi = createApi({
   reducerPath: "apidestination",
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5001/" }),

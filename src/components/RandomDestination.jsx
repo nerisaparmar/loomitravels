@@ -1,6 +1,6 @@
 import { useGetRandomDestinationQuery } from "../api/RandomDestinationApi";
 import React from "react";
-
+// this will get the random address and suggest in the view evertime you refresh the page
 const RandomDestination = () => {
   const { data, isLoading, isSuccess, isError, error } =
     useGetRandomDestinationQuery();

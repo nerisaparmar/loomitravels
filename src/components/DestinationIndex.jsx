@@ -2,7 +2,7 @@ import React from "react";
 import AddDestination from "./AddDestination";
 import DestinationList from "./DestinationList";
 import RandomDestination from "./RandomDestination";
-
+// this will wrap all the components requred for Destination
 const DestinationIndex = () => {
   return (
     <div className="text-danger">

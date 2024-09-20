@@ -1,7 +1,7 @@
 import React from "react";
 import { useGetAllDestinationsQuery } from "../api/DestinationApi";
 import Destination from "./Destination";
-
+// this will get all the data from the json server and map them into destination component
 const DestinationList = () => {
   const { data, isLoading, isSuccess, isError, error } =
     useGetAllDestinationsQuery();
